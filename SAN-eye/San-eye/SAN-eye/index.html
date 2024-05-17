@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="StyleSheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>SAN-Eye</title>
+</head>
+
+<body>
+
+    <nav class="header">
+        <div class="info">
+            <div class="logo-nav-box">
+                <img id="logo-nav" src="./img/logo.png">
+            </div>
+            <div class="nav-wrap">
+                <ul class="menu">
+                    <li><a href="index.html">Página Inicial</a></li>
+                    <li><a href="#img-alert">Clima</a></li>
+                    <li><a href="#color">Aplicativo</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="content">
+        <div class="content-block">
+            <img src="img/Design sem nome.gif" id="img-nuvem">
+            <div id="teste5">
+                <text class="panel" id="panel-text">"Antecipando o <span id="cor">futuro</span>, protegendo o <span
+                        id="cor">presente</span>.”</text>
+
+                <a href="#app-img"> <button class="btnt" type="button1" id="button-addon22">Baixe nosso
+                        aplicativo</button></a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="alert">
+        <div class="img"><img id="img-alert" src="./icons/caution-icon.svg">
+            <div class="text-alerta">Chuvas extremas no <span id="rio">Rio Grande Do Sul</span></div>
+            <!-- <div class="icon-sair" onclick="MudarEstado('alert')"><img id="icone-sair" src="icons/marca-x.png" ></div> -->
+        </div>
+    </div>
+    <div class="display">
+        <div class="tudo" id="tudo">
+            <div class="container-fluids">
+
+                <div class="cards text-center">
+
+                    <div class="cards-body">
+                        <div class="city">Cidade Exemplo, BR</div>
+                        <div class="container-img">
+                            <img src="./icons/unknown.png">
+                        </div>
+                        <div class="date">Terça, 1 Dezembro 2020</div>
+                        <div class="container-temp mx-4 my-3">
+                            <div>22</div>
+                            <span>°c</span>
+                            <div class="low-high">22°c / 23°c</div>
+                        </div>
+                        <div class="weather py-2">Nublado</div>
+
+                    </div>
+
+                    <div class="cards-footer">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Digite o nome da cidade"
+                                aria-label="Recipient's username" aria-describedby="button-addon2">
+                            <button class="btn" type="button" id="button-addon2"><img class="icone-pesquisar"
+                                    src="icons/lupa.png"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="carouselExampleDark" class="carousel carousel-dark slide w-50">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Porto_Alegre_%28May_8%2C_2024%29.jpg/1024px-Porto_Alegre_%28May_8%2C_2024%29.jpg"
+                            alt="..." class="d-block w-90" id="teste">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="chuvas">Chuvas intenças no Rio Grande do Sul </h5>
+                            <p id="chuvas">As chuvas intenças do Rio grande do sul e o rompimento parcial da barragem 14
+                                de
+                                julho provoca enchente do estado </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/img2.jfif" class="d-block w-90" alt="..." id="teste">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="chuvas"> 2023 foi o pior ano na Amazonia</h5>
+                            <p id="chuvas">Desde setembro de 2023, o estado declarou emergência ambiental.
+                                A combinação dos meses de setembro e outubro resultou em mais de 9 mil focos de
+                                calor.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="img/itaguacu.jpg" class="d-block w-30" alt="..." id="teste2">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 id="chuvas">Deslizamento soterra praia</h5>
+                            <p id="chuvas">Um grande Deslizamento de terra por conta do temporal destruiu a paradisíaca
+                                praia, deixando a população desolada</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mockup">
+                <div class="overlay">
+                    <h4>Quer saber mais sobre as noticiais e se manter atualizado? BAIXE NOSSO <span
+                            id="color">APLICATIVO</span>! </h4>
+                    <img id="app-img" src="img/gplay-badge.png" alt="Mockup">
+                    <img id="app-img" src="img/appstr-badge.webp" alt="Mockup">
+                </div>
+                <img id="um" src="img/1-removebg-preview.png" alt="Mockup">
+        </div>
+    </div>
+        </div>
+        <footer>
+            <p>&copy; 2023 - Todos os direitos reservados</p>
+            <p>Entre em contato pelo e-mail: contato@exemplo.com</p>
+            <nav>
+                <ul id="ul">
+                    <li><a href="#">Termos de uso</a></li>
+                    <li><a href="#">Política de privacidade</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                </ul>
+            </nav>
+        </footer>
+
+        <script>
+            var btn = document.getElementById('icone-sair');
+            var container = document.querySelector('.alert');
+            btn.addEventListener('click', function() {
+                
+            if(container.style.display === 'block') {
+                container.style.display = 'none';
+            } else {
+                container.style.display = 'block';
+            }
+            });
+        </script>
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
